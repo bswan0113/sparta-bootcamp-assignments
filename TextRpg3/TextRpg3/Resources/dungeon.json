@@ -1,0 +1,17 @@
+[
+  {"Name" : "쉬운 던전",
+    "RewardExp" : 50,
+    "RewardGold" : 1000,
+    "RequiredDefense" : 5
+  },
+  {"Name" : "일반 던전",
+    "RewardExp" : 100,
+    "RewardGold" : 1700,
+    "RequiredDefense" : 11
+  },
+  {"Name" : "어려운 던전",
+    "RewardExp" : 200,
+    "RewardGold" : 2500,
+    "RequiredDefense" : 17
+  }
+]

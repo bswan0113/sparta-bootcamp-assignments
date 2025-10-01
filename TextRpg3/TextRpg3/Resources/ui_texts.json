@@ -1,0 +1,127 @@
+{
+  "MainMenu": {
+    "Title": "스파르타 마을에 오신 여러분 환영합니다.",
+    "Prompt": "이곳에서 던전으로 들어가기전 활동을 할 수 있습니다.",
+    "Choices": [
+      "1. 상태 보기",
+      "2. 인벤토리",
+      "3. 랜덤 모험",
+      "4. 마을 순찰하기",
+      "5. 훈련하기",
+      "6. 상점",
+      "7. 던전입장",
+      "8. 휴식하기",
+      "9. 저장"
+    ]
+  },
+  "StatusScreen": {
+    "Title": "상태 보기",
+    "Description": "캐릭터의 정보가 표시됩니다.",
+    "Body_Lines": [
+      "Lv. {Level:D2}",
+      "{Name} ( {Job} )",
+      "",
+      "공격력 : {TotalAttack}{AttackBonusText}",
+      "방어력 : {TotalDefense}{DefenseBonusText}",
+      "경험치 : {Exp}",
+      "스태미너 : {Stamina}",
+      "체 력 : {Hp}",
+      "Gold : {Gold} G"
+    ],
+    "Choices": [
+      "0. 나가기"
+    ]
+  },
+  "InventoryScreen": {
+    "Title": "인벤토리",
+    "Description": "보유 중인 아이템을 관리할 수 있습니다.",
+    "Body_Header": "[아이템 목록]",
+    "Choices": [
+      "1. 장착 관리",
+      "0. 나가기"
+    ]
+  },
+  "EquipScreen": {
+    "Title": "인벤토리 - 장착 관리",
+    "Description": "보유 중인 아이템을 관리할 수 있습니다.",
+    "Body_Header": "[아이템 목록]",
+    "Choices": [
+      "0. 나가기"
+    ]
+  },
+  "ShopScreen": {
+    "Title": "상점",
+    "Description": "필요한 아이템을 얻을 수 있는 상점입니다.",
+    "Title_BuyScreen": "상점 - 아이템 구매",
+    "Description_BuyScreen": "필요한 아이템을 구매할 수 있습니다. 구매를 원하는 아이템의 번호를 입력하세요.",
+    "Title_SellScreen": "상점 - 아이템 판매",
+    "Description_SellScreen": "필요없는 아이템을 판매할 수 있습니다. 판매를 원하는 아이템의 번호를 입력하세요.",
+    "PurchasedStatus" : "구매 완료",
+    "Body_Gold_Header": "[보유 골드]",
+    "Body_Gold_Line": "{Gold} G",
+    "Body_Item_Header": "[아이템 목록]",
+    "Choices": [
+      "1. 아이템 구매",
+      "2. 아이템 판매",
+      "0. 나가기"
+    ],
+    "BuySuccess" : "{ItemName}을(를) 구매했습니다.",
+    "SellSuccess" : "{ItemName}을(를) 판매했습니다."
+  },
+  "RestScreen": {
+    "Title": "휴식하기",
+    "Description": "500 G 를 내면 체력을 회복할 수 있습니다. (보유 골드 : {Gold} G)",
+    "Choices": [
+      "1. 휴식하기",
+      "0. 나가기"
+    ],
+    "RestSuccess" : "휴식을 완료했습니다."
+  },
+  "DungeonEntranceScreen": {
+    "Title": "던전입장",
+    "Description": "이곳에서 던전으로 들어가기전 활동을 할 수 있습니다.",
+    "Choices": [
+      "0. 나가기"
+    ],
+    "RestSuccess" : "휴식을 완료했습니다."
+  },
+  "DungeonClearScreen": {
+    "Title": "던전 클리어",
+    "Body_Header_Success": "축하합니다!! \n {DungeonName}을 클리어하셨습니다.",
+    "Body_Header_Failed": "{DungeonName} 클리어에 실패하였습니다.",
+    "Body_Lines" : [
+      "[탐험 결과]",
+      "체력 {Hp} -> {AfterHp}",
+      "Gold {Gold} G -> {AfterGold} G"
+    ],
+    "Choices": [
+      "0. 나가기"
+    ]
+  },
+  "AdventureResult": {
+    "ResultSuceess" : "몬스터 조우! 골드 500 획득",
+    "ResultFailed" : "아무 일도 일어나지 않았다"
+  },
+  "PatrolResult" : {
+    "MeetChildren" : "마을 아이들이 모여있다. 간식을 사줘볼까?",
+    "MeetVillageChief" : "촌장님을 만나서 심부름을 했다.",
+    "GoodAction" : "길 읽은 사람을 안내해주었다.",
+    "MeetAnyone" : "마을 주민과 인사를 나눴다. 선물을 받았다.",
+    "NotingHappened" : "아무 일도 일어나지 않았다"
+  },
+  "TrainingResult" :{
+    "Good" : "훈련이 잘 되었습니다!",
+    "VeryGood" : "오늘하루 열심히 훈련했습니다.",
+    "NotGood" : "하기 싫다... 훈련이..."
+  },
+  "Common": {
+    "Prompt": "원하시는 행동을 입력해주세요.",
+    "InputPrefix": ">> ",
+    "InvalidInput": "잘못된 입력입니다.",
+    "BonusStat": " (+{0})",
+    "Equipped": "[E] ",
+    "InsufficientStamina" : "스태미나 가 부족합니다.",
+    "InsufficientGold" : "Gold 가 부족합니다.",
+    "SaveSuccess" : "저장에 성공했습니다."
+  }
+}

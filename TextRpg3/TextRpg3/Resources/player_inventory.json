@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "무쇠갑옷",
+    "Description": "무쇠로 만들어져 튼튼한 갑옷입니다.",
+    "AttackBonus": 0,
+    "DefenseBonus": 5,
+    "ItemType" : "Armor"
+  },
+  {
+    "Name": "낡은 검",
+    "Description": "쉽게 볼 수 있는 낡은 검 입니다.",
+    "AttackBonus": 2,
+    "DefenseBonus": 0,
+    "ItemType" : "Weapon"
+  },
+  {
+    "Name": "연습용 창",
+    "Description": "끝이 뭉툭해서 안전한 창입니다.",
+    "AttackBonus": 3,
+    "DefenseBonus": 0,
+    "ItemType" : "Weapon"
+  }
+]
